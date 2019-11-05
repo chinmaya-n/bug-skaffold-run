@@ -1,0 +1,6 @@
+apiVersion: skaffold/v1beta15
+kind: Config
+
+deploy:
+  kustomize:
+    path: ./kubernetes/base
